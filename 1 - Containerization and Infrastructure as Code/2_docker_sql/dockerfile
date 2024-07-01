@@ -1,0 +1,12 @@
+# Specifying the container
+FROM python:3.9.1
+
+# Executing command
+RUN pip install pandas
+
+# Creating a new folder > copying the pipeline file to execut
+WORKDIR /app
+COPY pipeline.py pipeline.py
+
+# Specifying which interface will use
+ENTRYPOINT [ "python", "pipeline.py"]
