@@ -91,7 +91,7 @@ Workflows = DAGs (directed acyclic graphs) or Pipeline
     - Assertions
     - tests that run on the output dataframe of the block
     - you can have zero to many assertions
-
+d
 
 [video_1]: https://www.youtube.com/watch?v=Li8-MWHhTbo&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=18&ab_channel=Mage
 [slides_1]: https://docs.google.com/presentation/d/17zSxG5Z-tidmgY-9l7Al1cPmz4Slh4VPK6o2sryFYvw/edit?pli=1#slide=id.p
