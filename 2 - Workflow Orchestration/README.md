@@ -91,7 +91,27 @@ Workflows = DAGs (directed acyclic graphs) or Pipeline
     - Assertions
     - tests that run on the output dataframe of the block
     - you can have zero to many assertions
-d
+
+- The blocks are interconnected: One block uses the results from the other
+    - So, if the first block must finish with a "**return df**" so the next block will be able to use this df to continue to workflowi
+
+![image](mage-simple-pipeline-etl.PNG)
+
+### Using Mage
+
+- Use the README.md file inside mage-zoomcamp folder
+    - To get the folder: `git clone https://github.com/mage-ai/mage-zoomcamp.git mage-zoomcamp`
+
+- To start the container with mage: `docker compose up`
+
+- Update Mage if necessary: `docker pull mageai/mageai:latest`
+
+
+
+
+
+
+
 
 [video_1]: https://www.youtube.com/watch?v=Li8-MWHhTbo&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=18&ab_channel=Mage
 [slides_1]: https://docs.google.com/presentation/d/17zSxG5Z-tidmgY-9l7Al1cPmz4Slh4VPK6o2sryFYvw/edit?pli=1#slide=id.p
