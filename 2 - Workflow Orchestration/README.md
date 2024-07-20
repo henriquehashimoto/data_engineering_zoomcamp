@@ -103,10 +103,11 @@ Workflows = DAGs (directed acyclic graphs) or Pipeline
     - To get the folder: `git clone https://github.com/mage-ai/mage-zoomcamp.git mage-zoomcamp`
 
 - To start the container with mage: `docker compose up`
+    - This need to be done in the folder with the mage installed
 
 - Update Mage if necessary: `docker pull mageai/mageai:latest`
 
-
+- The file of "**io_config.yml**" defines the connections with databases
 
 
 
